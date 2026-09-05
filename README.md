@@ -1,14 +1,10 @@
-# docker-ubuntu-free
-راه اندازی سرور اوبونتو با منابع سخت افزار بالا کاملا رایگان با دسترسی اس اس اچ و دسترسی مستقیم به سیستم عامل
-
-بسیار عالی! حالا آموزش کامل و دقیق شما را به صورت یک فایل README.md حرفه‌ای تبدیل می‌کنم. این فایل شامل تمام مراحل گام‌به‌گام با تصاویر و جدول‌های زیبا است.
+بسیار خب! یک فایل `README.md` کامل و آماده آپلود روی گیت‌هاب براتون می‌سازم. این فایل دقیقاً مطابق با آموزش شماست و کاملاً حرفه‌ای طراحی شده.
 
 ---
-
 ```markdown
 <div align="center">
   
-# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+%D8%B3%D8%B1%D9%88%D8%B1+%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88+%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86;%F0%9F%90%B3+Docker+Ubuntu+on+Railway;%F0%9F%94%92+SSH+%D8%A8%D8%AF%D9%88%D9%86+%D9%85%D8%AD%D8%AF%D9%88%D8%AF%DB%8C%D8%AA;%F0%9F%8E%AF+%D8%AA%DA%A9%D9%86%D9%88%D9%85%D9%88%D8%B2+%F0%9F%92%AA" alt="Typing SVG" />
+# <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+%D8%B3%D8%B1%D9%88%D8%B1+%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88+%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86;%F0%9F%90%B3+Docker+Ubuntu+on+Railway;%F0%9F%94%92+SSH+%D8%A8%D8%AF%D9%88%D9%86+%D9%85%D8%AD%D8%AF%D9%88%D8%AF%DB%8C%D8%AA;%F0%9F%8E%AF+%D8%AA%DA%A9%D9%86%D9%88%D9%85%D9%88%D8%B2+%F0%9F%92%AA" alt="Typing SVG" />
 
 </div>
 
@@ -49,7 +45,7 @@
 
 ## 📋 **فهرست مطالب**
 
-- [📺 آموزش ویدیویی کامل](#-آموزش-کامل-ویدیویی-در-یوتیوب)
+- [📺 آموزش کامل ویدیویی](#-آموزش-کامل-ویدیویی-در-یوتیوب)
 - [🎯 معرفی پروژه](#-معرفی-پروژه)
 - [✨ مزایای این سرور رایگان](#-مزایای-این-سرور-رایگان)
 - [📦 پیش‌نیازها](#-پیشنیازها)
@@ -64,6 +60,7 @@
   - [مرحله ۸: فعال‌سازی SSH با sshx](#مرحله-۸-فعالسازی-ssh-با-sshx)
 - [📊 جدول مقایسه پلتفرم‌ها](#-جدول-مقایسه-پلتفرمها)
 - [🖼️ تصاویر مراحل](#️-تصاویر-مراحل)
+- [📝 فایل Dockerfile](#-فایل-dockerfile)
 - [❓ سوالات متداول](#-سوالات-متداول)
 - [📱 ارتباط با تکنوموز](#-ارتباط-با-تکنوموز)
 
@@ -133,7 +130,7 @@
 
 <div align="center">
   
-![ساخت اکانت گیت‌هاب](https://via.placeholder.com/600x300/00D4FF/000000?text=+%F0%9F%94%91+%D8%B3%D8%A7%D8%AE%D8%AA+%D8%A7%DA%A9%D8%A7%D9%86%D8%AA+%DA%AF%DB%8C%D8%AA%E2%80%8C%D9%87%D8%A7%D8%A8+%F0%9F%94%91+)
+![ساخت اکانت گیت‌هاب](https://via.placeholder.com/800x350/00D4FF/000000?text=+%F0%9F%94%91+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B1%3A+%D8%B3%D8%A7%D8%AE%D8%AA+%D8%A7%DA%A9%D8%A7%D9%86%D8%AA+%DA%AF%DB%8C%D8%AA%E2%80%8C%D9%87%D8%A7%D8%A8+%F0%9F%94%91+)
 
 </div>
 
@@ -149,7 +146,7 @@
 
 <div align="center">
   
-![ورود به Railway](https://via.placeholder.com/600x300/9B59B6/FFFFFF?text=+%F0%9F%9A%AA+%D9%88%D8%B1%D9%88%D8%AF+%D8%A8%D9%87+Railway+%F0%9F%9A%AA+)
+![ورود به Railway](https://via.placeholder.com/800x350/9B59B6/FFFFFF?text=+%F0%9F%9A%AA+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B2%3A+%D9%88%D8%B1%D9%88%D8%AF+%D8%A8%D9%87+Railway+%F0%9F%9A%AA+)
 
 </div>
 
@@ -167,7 +164,7 @@
 
 <div align="center">
   
-![ایجاد پروژه جدید](https://via.placeholder.com/600x300/2ECC71/000000?text=+%F0%9F%93%81+%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%AC%D8%AF%DB%8C%D8%AF+%F0%9F%93%81+)
+![ایجاد پروژه جدید](https://via.placeholder.com/800x350/2ECC71/000000?text=+%F0%9F%93%81+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B3%3A+%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%AC%D8%AF%DB%8C%D8%AF+%F0%9F%93%81+)
 
 </div>
 
@@ -176,19 +173,16 @@
 ### 📌 **مرحله ۴: انتخاب ریپازیتوری**
 
 1. ریپازیتوری **docker-ubuntu-free** را که **فورک** کرده‌اید انتخاب کنید
-2. اگر این ریپازیتوری را ندارید، ابتدا آن را از لینک زیر فورک کنید:
-
-```bash
-# لینک ریپازیتوری
-https://github.com/your-username/docker-ubuntu-free
-```
-
+2. اگر این ریپازیتوری را ندارید، از این لینک فورک کنید:
+   ```bash
+   https://github.com/YOUR_USERNAME/docker-ubuntu-free
+   ```
 3. روی ریپازیتوری کلیک کنید تا انتخاب شود
 4. ✅ پروژه شما ایجاد شد!
 
 <div align="center">
   
-![انتخاب ریپازیتوری](https://via.placeholder.com/600x300/3498DB/FFFFFF?text=+%F0%9F%93%82+%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8+%D8%B1%DB%8C%D9%BE%D8%A7%D8%B2%DB%8C%D8%AA%D9%88%D8%B1%DB%8C+%F0%9F%93%82+)
+![انتخاب ریپازیتوری](https://via.placeholder.com/800x350/3498DB/FFFFFF?text=+%F0%9F%93%82+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B4%3A+%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8+%D8%B1%DB%8C%D9%BE%D8%A7%D8%B2%DB%8C%D8%AA%D9%88%D8%B1%DB%8C+%F0%9F%93%82+)
 
 </div>
 
@@ -209,7 +203,7 @@ https://github.com/your-username/docker-ubuntu-free
 
 <div align="center">
   
-![تنظیمات پورت و دامنه](https://via.placeholder.com/600x300/E67E22/000000?text=+%F0%9F%8C%8D+%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA+%D9%BE%D9%88%D8%B1%D8%AA+%D9%88+%D8%AF%D8%A7%D9%85%D9%86%D9%87+%F0%9F%8C%8D+)
+![تنظیمات پورت و دامنه](https://via.placeholder.com/800x350/E67E22/000000?text=+%F0%9F%8C%8D+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B5%3A+%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA+%D9%BE%D9%88%D8%B1%D8%AA+%D9%88+%D8%AF%D8%A7%D9%85%D9%86%D9%87+%F0%9F%8C%8D+)
 
 </div>
 
@@ -226,7 +220,7 @@ https://github.com/your-username/docker-ubuntu-free
 
 <div align="center">
   
-![دپلوی موفق](https://via.placeholder.com/600x300/27AE60/FFFFFF?text=+%E2%9C%85+%D8%AF%D9%BE%D9%84%D9%88%DB%8C+%D9%85%D9%88%D9%81%D9%82+%E2%9C%85+)
+![دپلوی موفق](https://via.placeholder.com/800x350/27AE60/FFFFFF?text=+%E2%9C%85+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B6%3A+%D8%AF%D9%BE%D9%84%D9%88%DB%8C+%D9%85%D9%88%D9%81%D9%82+%E2%9C%85+)
 
 </div>
 
@@ -237,18 +231,16 @@ https://github.com/your-username/docker-ubuntu-free
 برای اتصال به رابط گرافیکی سرور:
 
 1. دامنه‌ای که Railway به شما داده را با پورت باز کنید:
-
-```bash
-https://your-domain.railway.app/
-```
-
+   ```bash
+   https://your-domain.railway.app/
+   ```
 2. گزینه **VNC HTML** را انتخاب کنید
 3. یک رابط کاربری گرافیکی از سرور اوبونتو مشاهده می‌کنید
 4. ✅ به سرور متصل شدید!
 
 <div align="center">
   
-![اتصال VNC](https://via.placeholder.com/600x300/E74C3C/FFFFFF?text=+%F0%9F%96%A5%EF%B8%8F+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+VNC+%F0%9F%96%A5%EF%B8%8F+)
+![اتصال VNC](https://via.placeholder.com/800x350/E74C3C/FFFFFF?text=+%F0%9F%96%A5%EF%B8%8F+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B7%3A+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+VNC+%F0%9F%96%A5%EF%B8%8F+)
 
 </div>
 
@@ -291,7 +283,7 @@ https://sshx.io/join/XXXXXXXXXX
 
 <div align="center">
   
-![اتصال SSH](https://via.placeholder.com/600x300/8E44AD/FFFFFF?text=+%F0%9F%94%92+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+SSH+%D8%A8%D8%A7+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%F0%9F%94%92+)
+![اتصال SSH](https://via.placeholder.com/800x350/8E44AD/FFFFFF?text=+%F0%9F%94%92+%D9%85%D8%B1%D8%AD%D9%84%D9%87+%DB%B8%3A+%D8%A7%D8%AA%D8%B5%D8%A7%D9%84+SSH+%D8%A8%D8%A7+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%F0%9F%94%92+)
 
 </div>
 
@@ -356,6 +348,64 @@ https://sshx.io/join/XXXXXXXXXX
 
 ---
 
+## 📝 **فایل Dockerfile**
+
+فایل `Dockerfile` که در ریپازیتوری استفاده شده:
+
+```dockerfile
+# 🐳 Dockerfile برای سرور اوبونتو روی Railway
+
+# انتخاب ایمیج پایه
+FROM ubuntu:22.04
+
+# تنظیم متغیرهای محیطی
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Tehran
+
+# بروزرسانی و نصب پکیج‌های ضروری
+RUN apt-get update && apt-get install -y \
+    sudo \
+    curl \
+    wget \
+    git \
+    vim \
+    nano \
+    htop \
+    net-tools \
+    iputils-ping \
+    dnsutils \
+    python3 \
+    python3-pip \
+    nodejs \
+    npm \
+    x11vnc \
+    xvfb \
+    fluxbox \
+    && rm -rf /var/lib/apt/lists/*
+
+# نصب ابزارهای جانبی
+RUN curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh || true
+RUN curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh | bash
+
+# ایجاد کاربر غیرroot
+RUN useradd -m -s /bin/bash railwayuser && \
+    echo "railwayuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+USER railwayuser
+WORKDIR /home/railwayuser
+
+# کپی فایل‌های پروژه
+COPY --chown=railwayuser:railwayuser . .
+
+# باز کردن پورت‌ها
+EXPOSE 6080 8080 8000 3000
+
+# راه‌اندازی VNC و فلکسباکس
+CMD ["sh", "-c", "Xvfb :1 -screen 0 1280x720x24 & export DISPLAY=:1 && fluxbox & x11vnc -display :1 -forever -nopw -rfbport 6080"]
+```
+
+---
+
 ## ❓ **سوالات متداول**
 
 <details>
@@ -376,7 +426,7 @@ https://sshx.io/join/XXXXXXXXXX
 <details>
 <summary><b>📦 چه پکیج‌هایی نصب است؟</b></summary>
 <br>
-پکیج‌های پایه اوبونتو، curl، wget، git، vim، nano، htop و ابزارهای شبکه نصب هستند.
+پکیج‌های پایه اوبونتو، curl، wget، git، vim، nano، htop، python3، nodejs و ابزارهای شبکه نصب هستند.
 </details>
 
 <details>
@@ -401,6 +451,12 @@ https://sshx.io/join/XXXXXXXXXX
 <summary><b>⏱️ سرور تا کی آنلاین می‌ماند؟</b></summary>
 <br>
 تا زمانی که از آن استفاده کنید، آنلاین می‌ماند. بعد از ۱۰ دقیقه بی‌استفاده‌ای، ممکن است sleep کند اما با یک درخواست مجدد فعال می‌شود.
+</details>
+
+<details>
+<summary><b>❌ خطای Connection Refused در VNC</b></summary>
+<br>
+مطمئن شوید که پورت 6080 را در تنظیمات Railway فعال کرده‌اید و دامنه را به‌درستی وارد کرده‌اید.
 </details>
 
 ---
@@ -446,6 +502,7 @@ https://sshx.io/join/XXXXXXXXXX
 - ✅ راه‌اندازی VNC و SSH تکمیل شد
 - ✅ جدول مقایسه پلتفرم‌ها به‌روز شد
 - ✅ تصاویر مراحل نصب اضافه شد
+- ✅ فایل Dockerfile کامل اضافه شد
 - ✅ سوالات متداول تکمیل شد
 - ✅ لینک‌های تکنوموز اضافه شد
 
@@ -490,19 +547,95 @@ https://sshx.io/join/XXXXXXXXXX
 
 ---
 
-## 🎬 **نکات تکمیلی برای ویدیو یوتیوب:**
+## 📂 **فایل‌های مورد نیاز برای آپلود**
 
-برای تکمیل این README، لطفاً موارد زیر را انجام دهید:
+برای آپلود روی گیت‌هاب، این فایل‌ها را ایجاد کنید:
 
-1. **آپلود ویدیو در یوتیوب** و `YOUR_VIDEO_ID` را جایگزین کنید
-2. **تصاویر واقعی** را جایگزین placeholderها کنید
-3. **لینک ریپازیتوری** `docker-ubuntu-free` را به ریپازیتوری واقعی خود تغییر دهید
+### ۱. **README.md** (فایل بالا)
 
-## 📸 **پیشنهاد برای تصاویر:**
+### ۲. **Dockerfile**
 
-برای ساخت تصاویر حرفه‌ای می‌توانید از:
-- [Canva](https://www.canva.com/) - طراحی بنر و اسلاید
-- [Snagit](https://www.techsmith.com/snagit.html) - اسکرین‌شات و ویرایش
-- [OBS Studio](https://obsproject.com/) - ضبط ویدیو
+```dockerfile
+# 🐳 Dockerfile برای سرور اوبونتو روی Railway
 
-## 🚀 **موفق باشید!**
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Tehran
+
+RUN apt-get update && apt-get install -y \
+    sudo curl wget git vim nano htop \
+    net-tools iputils-ping dnsutils \
+    python3 python3-pip nodejs npm \
+    x11vnc xvfb fluxbox \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN useradd -m -s /bin/bash railwayuser && \
+    echo "railwayuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+USER railwayuser
+WORKDIR /home/railwayuser
+
+EXPOSE 6080 8080 8000 3000
+
+CMD ["sh", "-c", "Xvfb :1 -screen 0 1280x720x24 & export DISPLAY=:1 && fluxbox & x11vnc -display :1 -forever -nopw -rfbport 6080"]
+```
+
+### ۳. **.gitignore**
+
+```gitignore
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+```
+
+---
+
+## 🚀 **مراحل آپلود روی گیت‌هاب**
+
+1. **ریپازیتوری جدید بسازید:**
+   ```bash
+   git init
+   git add .
+   git commit -m "اولین commit: سرور اوبونتو رایگان روی Railway"
+   ```
+
+2. **به گیت‌هاب وصل کنید:**
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/docker-ubuntu-free.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **در Railway دپلوی کنید:**
+   - به Railway بروید
+   - New Project → Deploy from GitHub repo
+   - ریپازیتوری خود را انتخاب کنید
+   - منتظر دپلوی بمانید
+
+---
+
